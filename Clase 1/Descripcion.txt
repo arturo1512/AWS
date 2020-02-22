@@ -1,0 +1,4 @@
+Introducción
+Bienvenido al Curso de Bases de Datos en AWS de Platzi. Vamos a aprender sobre los servicios de bases de datos relacionales en AWS, principalmente el servicio de RDS, y sobre el servicio de bases de datos no relacionales en AWS: DynamoDB.
+
+Esta vez nuestro profesor será Carlos Andrés Zambrano, que tiene más de 4 años de experiencia trabajando con AWS.

@@ -1,0 +1,7 @@
+Conexión gráfica a nuestra base de datos
+En esta clase vamos a conectarnos a la base de datos que creamos en la clase anterior usando la herramienta MySQL Workbench, que nos permite ejecutar y visualizar nuestros comandos muy fácilmente.
+
+Cuando utilizamos el servicio RDS con el motor de MySQL podemos crear multiples bases de datos con un solo endpoint (una sola conexión), ya que entre las características de este motor encontramos la cantidad de bases de datos ilimitada. Obviamente, debemos tener en cuenta que nuestras instancias deberían soportar la cantidad de bases de datos que vamos a utilizar, y las herramientas de monitoreo nos pueden ayudar a medir esta relación de tamaño y rendimiento.
+
+Recuerda que si necesitamos un permiso de usuarios diferente para cada base de datos vamos a necesitar configuraciones diferentes en las keys (llaves de acceso) de nuestra instancia.
+
