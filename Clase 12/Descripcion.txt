@@ -1,0 +1,11 @@
+Estrategias de migración a RDS
+DMS (Database Migration Service) es un servicio de AWS que nos permite migrar nuestras bases de datos con otros motores al servicio de RDS u otros servicios de bases de datos en AWS.
+
+Este servicio tiene las siguientes características:
+
+Podemos realizar migraciones de bases de datos on premise o en la nube a los servicios de bases de datos en AWS sin afectar el downtime de la base de datos que vamos a migrar.
+La carga de trabajo durante las migraciones es adaptable.
+Solo pagamos por los recursos que utilizamos en la migración.
+AWS administra la infraestructura necesaria para el trabajo de la migración, Hardware, Software, parches, etc.
+Conmutación por error automática, si AWS detecta un error en el proceso automáticamente creará una nueva instancia para remplazar la anterior, así el proceso de replicación no se ve afectado por estos problemas.
+Los datos en reposo están cifrados con KMS (Key Management Service) y la migración utiliza el protocolo de seguridad SSL.
